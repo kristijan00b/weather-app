@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="images/04d.png" rel="shortcut icon">
+</head>
+<body>
+
+    <div class="container">
+        <div id="weather">
+
+            <div class="top">
+                <div class="col-1-2">
+                    <input type="text" placeholder="City" class="city">
+                    <p class="day">Day</p>
+                    <p class="date">Date</p>
+                    <p class="time">Time</p>
+                </div>
+                <div class="col-1-2">
+                    <p class="weatherstatus">Weather Status:</p>
+                    <img src="images/clearsky.png" alt="" class="image">
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="left">
+                    <p class="temperature">0 &deg;C</p>
+                    <p class="maxtemp">Max: 0 &deg;C</p>
+                    <p class="mintemp">Min: 0 &deg;C</p>
+                </div>
+                <div class="right">
+                    <div class="r-left">
+                        <p class="wind">Wind speed</p>
+                        <p class="wind">Humidity</p>
+                        <p class="wind">Pressure</p>
+                        <p class="wind">Sunrise Time</p>
+                        <p class="wind">Sunset Time</p>
+                    </div>
+                    <div class="r-right">
+                        <p class="windspeed">0 km/h</p>
+                        <p class="humidity">0 %</p>
+                        <p class="pressure">0 hPa</p>
+                        <p class="sunrisetime">00:00 h</p>
+                        <p class="sunsettime">00:00h</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>
+
+<!--https://openweathermap.org/weather-conditions
+https://www.danilovesovic.com/kursevi/weather-app-widget/html-weather-->
